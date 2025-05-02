@@ -1,5 +1,3 @@
 fastapi
 uvicorn
 transformers
-torch  # Needed for most models
-
