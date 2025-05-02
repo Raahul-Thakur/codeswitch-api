@@ -3,3 +3,4 @@ uvicorn
 transformers
 torch==2.0.1
 transformers==4.30.2
+numpy==1.26.4
