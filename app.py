@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from transformers import pipeline
 
 app = FastAPI()
-translator = pipeline("text2text-generation", model="Salesforce/codet5-small")
+translator = pipeline("text2text-generation", model="google/flan-t5-small")
 
 class CodeRequest(BaseModel):
     code: str
